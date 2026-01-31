@@ -76,7 +76,7 @@ pipeline {
                 withKubeConfig(credentialsId: 'kubecredID') {
                     sh '''
                         kubectl apply -f Deployment.yaml
-                        kubectl apply -f Service.yaml
+                        kubectl apply -f svc.yaml
                     '''
                 }
             }
