@@ -24,7 +24,7 @@ pipeline{
         }
     }
     stage('sonarqube-stage'){
-        stpes{
+        steps{
             sh """
             node {
              stage('SCM') {
