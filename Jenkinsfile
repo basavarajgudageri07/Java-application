@@ -1,7 +1,7 @@
 pipeline{
    agent any
    environment{
-    IMAGE_NAME = "babugudageri/java:${GIT_COMMIT"
+    IMAGE_NAME = "babugudageri/java:${GIT_COMMIT}"
    }
    tools {
     jdk 'java-17'
