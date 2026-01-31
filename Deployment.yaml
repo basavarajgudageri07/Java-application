@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: java
-        image: babugudageri/java:latest
+        image: babugudageri/java
         ports:
         - containerPort: 8080
           
